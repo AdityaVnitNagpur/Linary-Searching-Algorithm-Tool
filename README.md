@@ -1,1 +1,1 @@
-# Linary-Searching-Algorithm-Tool
+# Linary searching algorithm tool
