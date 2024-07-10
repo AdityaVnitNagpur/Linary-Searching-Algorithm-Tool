@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Linary - Searching Algorithm Tool</title>
+  </head>
+  <body>
+    <header>
+      <a class="title" href="index.html">Linary - Searching Algorithm Tool</a>
+    </header>
+    <div class="container">
+      <div class="controls">
+        <input id="key" placeholder="Enter a Search Key" inputmode="numeric" />
+        <select id="option">
+          <option value="0">Linear Search</option>
+          <option value="1">Binary Search</option>
+        </select>
+        <button id="search-btn" class="btn" onclick="search()">Search</button>
+        <button class="btn" onclick="generateArray()">Generate Array</button>
+      </div>
+      <div class="array"></div>
+      <div class="status"></div>
+    </div>
+    <footer>
+      <a href="https://github.com/AdityaVnitNagpur/Linary-Searching-Algorithm-Tool" target="_blank">Github Repository</a>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/linearSearch.js"></script>
+    <script src="./scripts/binarySearch.js"></script>
+    <script src="./scripts/sorting.js"></script>
+  </body>
+</html>
